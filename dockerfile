@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . .
 
 # Compila la aplicación
-RUN javac Main.java
+RUN javac /app/Main.java
 
 # Comando para ejecutar la aplicación
-CMD ["java", "Main"]
+CMD ["java", "/app/Main"]
