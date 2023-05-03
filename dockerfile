@@ -1,5 +1,5 @@
 # Imagen base
-FROM openjdk:11-jdk-slim
+FROM openjdk:18-jdk-alpine3.15
 
 # Directorio de trabajo
 WORKDIR /app
